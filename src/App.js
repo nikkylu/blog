@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import a from './pic/a.jpg';
 import './App.css';
+import Bulb from './Bulb.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <header className="Nikky's Blog">
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <p className="App-header" >
+          Where Things Diverge 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
+      {/* <img src={a} className = "App-pic"  /> */}
+      <Bulb src={a}></Bulb>
+      <div id="root"></div>
     </div>
+    
   );
 }
 
 export default App;
+

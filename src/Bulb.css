@@ -1,0 +1,19 @@
+.Bulb{
+    /* transition: ease-in-out;
+    transition-duration: 0.5s;
+    transition-delay: 2s;
+    transform: 2s; */
+}
+
+/* .Bulb:hover{
+    opacity: 80%;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+} */
+
+.Bulb:active{
+    opacity: 70%;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 2s;
+}
