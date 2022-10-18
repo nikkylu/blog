@@ -1,9 +1,13 @@
 .App {
   display: flex;
   flex-direction: row;
+  position: absolute;
   font-family:'Times New Roman', Times, serif;
   max-width: 100%;
   max-height: 100%;
+  margin: 7vmin;
+  width: 80%;
+  height: 80%;
 }
 .App-container {
   display: flex;
@@ -54,14 +58,14 @@
 @media (max-width: 800px) { 
   .App {
     flex-direction: column;
-    width: 100%;
     align-items: center;
-    justify-content: center;
-    margin-left: 0vmin;
+    /* justify-content: center;   */
+    margin: 7vmin;
+    position: absolute;
   }
   .App-header {
     flex-direction: column;
-    margin-left: 3vmin;
+    width: 100%;
   }
   .App-sub {
     flex-direction: column;
@@ -72,9 +76,6 @@
   .App-container {
     flex-direction: row;
     width: 100%;
-    margin-left: 0vmin;
-    margin-right: 0vmin;
-    /* margin-right: 3vmin; */
   }
   .App-abstract {
     flex-direction: row;
