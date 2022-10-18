@@ -1,19 +1,45 @@
 .Bulb{
-    /* transition: ease-in-out;
-    transition-duration: 0.5s;
-    transition-delay: 2s;
-    transform: 2s; */
+  display: flex;
+  flex-direction: column;
+  width: auto; 
+  /* margin-right: auto;
+  margin-left: 70%; */
+  /* margin-right: 7vmin;
+  margin-left:7vmin;
+  margin-bottom: 3vmin; */
+  padding-top: 3vmin;
+  max-height: 100vmin;
+  max-width: 100vmin;
+  /* height: 100%; */
 }
 
-/* .Bulb:hover{
-    opacity: 80%;
+.Bulb:hover{
+    /* opacity: 80%; */
     transition: ease-in-out;
     transition-duration: 0.2s;
-} */
+}
 
 .Bulb:active{
     opacity: 70%;
     transition: ease-in-out;
-    transition-duration: 1s;
-    transition-delay: 2s;
+    transition-duration: 0.2s;
+}
+
+.fadeIn {
+    animation: fade-in 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {   
+      opacity: 1;
+    }
+}
+
+@media (max-width: 800px) { 
+  .Bulb {
+    flex-direction: column;
+  }
 }

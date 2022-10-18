@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Bulb.css';
-import a from './pic/a.jpg';
+import a from './pic/a.jpeg';
 import b from './pic/b.jpeg';
 import c from './pic/c.jpeg';
 import d from './pic/d.jpeg';
@@ -13,7 +13,7 @@ import j from './pic/j.jpeg';
 import k from './pic/k.jpeg';
 import l from './pic/l.jpeg';
 import m from './pic/m.jpeg';
-import n from './pic/n.jpeg';
+// import n from './pic/n.jpeg';
 
 const imagesPath = {
   0: a,
@@ -29,7 +29,6 @@ const imagesPath = {
   10:k,
   11:l,
   12:m,
-  13:n
 }
 // const [count] = useState(0);
 
@@ -48,7 +47,7 @@ class Bulb extends React.Component {
     const imageName = this.getImageName();
     return (
       <div>
-        <img style={{maxHeight: '88vmin'}} src={imagesPath[imageName]} onClick={this.toggleImage} className ="Bulb"> 
+        <img src={imagesPath[imageName]} onClick={this.toggleImage} className ="Bulb"> 
         </img>
       </div>
     );
