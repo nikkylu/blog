@@ -2,19 +2,14 @@
   display: flex;
   flex-direction: column;
   width: auto; 
-  /* margin-right: auto;
-  margin-left: 70%; */
-  /* margin-right: 7vmin;
-  margin-left:7vmin;
-  margin-bottom: 3vmin; */
   padding-top: 3vmin;
   max-height: 100vmin;
   max-width: 100vmin;
-  /* height: 100%; */
+  margin: 3vmin;
+  margin-left: auto;
 }
 
 .Bulb:hover{
-    /* opacity: 80%; */
     transition: ease-in-out;
     transition-duration: 0.2s;
 }

@@ -13,7 +13,6 @@ import j from './pic/j.jpeg';
 import k from './pic/k.jpeg';
 import l from './pic/l.jpeg';
 import m from './pic/m.jpeg';
-// import n from './pic/n.jpeg';
 
 const imagesPath = {
   0: a,
@@ -30,21 +29,23 @@ const imagesPath = {
   11:l,
   12:m,
 }
-// const [count] = useState(0);
 
 class Bulb extends React.Component {
-  // count = 0;
   state = {
     count: 0
   };
   toggleImage = () => {
     this.setState(state => ({count: state.count + 1}))
+    if (this.state.count == 12){
+      this.state.count = 0;
+    }
   }
 
   getImageName = () => this.state.count
 
   render() {
     const imageName = this.getImageName();
+    
     return (
       <div>
         <img src={imagesPath[imageName]} onClick={this.toggleImage} className ="Bulb"> 
