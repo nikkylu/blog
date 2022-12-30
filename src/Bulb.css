@@ -5,7 +5,9 @@
   padding-top: 3vmin;
   max-height: 100vmin;
   max-width: 100vmin;
+  max-height: 90%;
   margin: 3vmin;
+  /* height: 90%; */
   /* margin-left: auto; */
 }
 
@@ -36,5 +38,7 @@
 @media (max-width: 800px) { 
   .Bulb {
     flex-direction: column;
+    max-height: 90%;
+    width: auto;
   }
 }

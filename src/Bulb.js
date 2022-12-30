@@ -13,6 +13,10 @@ import j from './pic/j.jpeg';
 import k from './pic/k.jpeg';
 import l from './pic/l.jpeg';
 import m from './pic/m.jpeg';
+import n from './pic/n.jpeg';
+import o from './pic/o.jpeg';
+import p from './pic/p.jpeg';
+import q from './pic/q.jpeg';
 
 const imagesPath = {
   0: a,
@@ -28,6 +32,10 @@ const imagesPath = {
   10:k,
   11:l,
   12:m,
+  13:n,
+  14:o,
+  15:p,
+  16:q,
 }
 
 class Bulb extends React.Component {
@@ -36,8 +44,8 @@ class Bulb extends React.Component {
   };
   toggleImage = () => {
     this.setState(state => ({count: state.count + 1}))
-    if (this.state.count == 12){
-      this.state.count = 0;
+    if (this.state.count == 16){
+      this.state.count = -1;
     }
   }
 

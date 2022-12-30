@@ -62,30 +62,35 @@
     /* justify-content: center;   */
     margin: 7vmin;
     position: absolute;
+    font-size: calc(3vmin);
   }
   .App-header {
     flex-direction: column;
     width: 100%;
+    margin-top: 3vmin;
   }
   .App-sub {
     flex-direction: column;
     width: 100%;
     margin-left: 3vmin;
-    margin-top: 0;
+    margin-top: 3vmin;
   }
   .App-container {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
   }
   .App-abstract {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     margin-left: 3vmin;
-    margin-top: 0;
+    margin-top: 3vmin;
+    margin-right: 3vmin;
+    font-size: calc(2vmin);
   }
   .App-but {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+    margin-top: 3vmin;
     margin-left: 3vmin;
   }
 }
