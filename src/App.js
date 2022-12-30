@@ -34,11 +34,13 @@ function App() {
         <but className="App-but">© Nikky Lu 2022</but>
       </container>
       <Bulb></Bulb>
-      <h1>Youtube Embed</h1>
-      <Embed embedId="nZXqcR_jyhY" />
-      <h1>Youtube Embed</h1>
-      <Embed embedId="k_Gn6a3WbYw" />
-      <div id="root"></div>
+      <container className="">
+        <h1>Youtube Embed</h1>
+        <Embed embedId="nZXqcR_jyhY" />
+        <h1>Youtube Embed</h1>
+        <Embed embedId="k_Gn6a3WbYw" />
+        <div id="root"></div>
+      </container>
     </div>
   );
 }
