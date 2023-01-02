@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   width: auto; 
-  padding-top: 3vmin;
+  padding-top: 2vmin;
   max-height: 100vmin;
   max-width: 100vmin;
-  max-height: 90%;
+  /* max-height: 90%; */
   margin: 3vmin;
   /* height: 90%; */
   /* margin-left: auto; */

@@ -1,15 +1,27 @@
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-  }
-  
-  .video-responsive iframe {
+
+  .Embed.iframe {
     left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    top: 0; 
+    /* height: 100vmin; */
+    /* position: absolute; */
   }
-  
+
+  .Embed{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    height: 100vmin;
+    /* max-height: 100vmin; */
+    /* max-width: 100vmin; */
+    /* max-height: 90%; */
+    margin: 3vmin;
+  }
+
+  @media (max-width: 800px) { 
+    .Embed {
+      flex-direction: column;
+      max-height: 90%;
+      width: auto;
+    }
+  }

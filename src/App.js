@@ -27,20 +27,19 @@ function App() {
           Nikky Lu 
         </header>
         <sub className="App-sub"> Where Things Diverge</sub>
-        {/* <button id="text" onClick= "toshow()"> Biography </button> */}
+        <Bulb></Bulb>
+        <sub className="App-sub">Meditation I</sub>
+        <Embed embedId="0TTEFwKfkmM" />
+      </container>
+      <bottom className="App-bottom">  
+          <Bio></Bio>
+          <abstract className="App-abstract"> nikkylu.zl@gmail.com </abstract>
+          <but className="App-but">© Nikky Lu 2022</but>
+      </bottom>
+      {/* <button id="text" onClick= "toshow()"> Biography </button> */}
         {/* <Bio id="bio"></Bio>; */}
-        <Bio></Bio>
-        <abstract className="App-abstract"> nikkylu.zl@gmail.com </abstract>
-        <but className="App-but">© Nikky Lu 2022</but>
-      </container>
-      <Bulb></Bulb>
-      <container className="">
-        <h1>Youtube Embed</h1>
-        <Embed embedId="nZXqcR_jyhY" />
-        <h1>Youtube Embed</h1>
-        <Embed embedId="k_Gn6a3WbYw" />
-        <div id="root"></div>
-      </container>
+      
+      <div id="root"></div>
     </div>
   );
 }
