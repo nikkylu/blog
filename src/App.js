@@ -28,8 +28,8 @@ function App() {
         </header>
         <sub className="App-sub"> Where Things Diverge</sub>
         <Bulb></Bulb>
-        <sub className="App-sub">Meditation I</sub>
-        <Embed embedId="0TTEFwKfkmM" />
+        {/* <sub className="App-sub">Meditation I</sub>
+        <Embed embedId="0TTEFwKfkmM" /> */}
       </container>
       <bottom className="App-bottom">  
           <Bio></Bio>
